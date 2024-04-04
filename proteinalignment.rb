@@ -12,6 +12,7 @@
 gem install gr-plot
 require 'gr/plot'
 
+class proteinAlignment 
 def initialize(alignmentfile, writemodifiedbuffer)
   @alignment = alignmentfile
   @modifiedbuffer = writemodifiedbuffer
@@ -124,4 +125,5 @@ end
 
 def 3D()
    return GR.scatter3(mRNA_differences,cds_differences,stop_codon_differences)
+end
 end
