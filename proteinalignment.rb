@@ -63,7 +63,7 @@ def plotmRNAs()
     for i in 0..mRNA_start.length
         mRNA_difference.push(mRNA_end[i].to_i-mRNA_start[i].to_i)
     end
-    GR.barplot(mRNA_difference)
+    return GR.barplot(mRNA_difference)
 end
 
 def plotCDS()
@@ -91,7 +91,7 @@ def plotCDS()
     for i in 0..mRNA_start.length
         cds_difference.push(cds_end[i].to_i - cds_start[i].to_i)
     end
-    GR.barplot(cds_difference)
+    return GR.barplot(cds_difference)
 end
 
 def plotstop()
@@ -119,9 +119,9 @@ def plotstop()
     for i in 0..mRNA_start.length
        stop_difference.push(stop_end[i].to_i - stop_start[i].to_i)
     end
-    GR.barplot(stop_difference)
+    return GR.barplot(stop_difference)
 end
 
 def 3D()
-   GR.scatter3(mRNA_differences,cds_differences. stop_codon_differences)
+   return GR.scatter3(mRNA_differences,cds_differences,stop_codon_differences)
 end
