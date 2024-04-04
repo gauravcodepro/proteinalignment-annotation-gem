@@ -4,6 +4,7 @@
 - a proteinalignment gem that uses the red data tools and gives all information on the protein alignments for genome annotations.
 - it will take the sample gff and then will write the filemodified.txt
 - will use the filemodified.txt again as buffer read and then will make and give all the information including the plots for the visualization.
+- has all the support for the paf alignment and the gff alignments coming from the miniprot.
 
 Gaurav Sablok \
 Academic Staff Member \
