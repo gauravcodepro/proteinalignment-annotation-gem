@@ -11,6 +11,7 @@
   # after initiating the class constructor
   getcorrdinates("/home/gaurav/Desktop/sample.gff", "/home/gaurav/Desktop/sample.txt", type = "mRNA")
   ```
+- it also has the visualization support for the plotting differences.
 
 Gaurav Sablok \
 Academic Staff Member \
