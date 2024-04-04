@@ -6,6 +6,11 @@
 - will use the filemodified.txt again as buffer read and then will make and give all the information including the plots for the visualization.
 - has all the support for the paf alignment and the gff alignments coming from the miniprot.
 - sample files to generate the alignment are present in the repository.
+- example usage
+  ```
+  # after initiating the class constructor
+  getcorrdinates("/home/gaurav/Desktop/sample.gff", "/home/gaurav/Desktop/sample.txt", type = "mRNA")
+  ```
 
 Gaurav Sablok \
 Academic Staff Member \
