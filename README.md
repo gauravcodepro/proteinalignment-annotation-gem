@@ -8,6 +8,8 @@
 - sample files to generate the alignment are present in the repository.
 - example usage
   ```
+  # use the proteinalignment.rb
+  # alignmentextractordraft.rb is for building the graphql queries from the alignments coming from the genome alignments. 
   # after initiating the class constructor
   getcorrdinates("/home/gaurav/Desktop/sample.gff", "/home/gaurav/Desktop/sample.txt", type = "mRNA")
   ```
