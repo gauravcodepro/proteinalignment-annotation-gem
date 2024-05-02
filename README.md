@@ -16,7 +16,7 @@
   ```
 - it also has the visualization support for the plotting differences.
 
-Gaurav Sablok \
+Gaurav \
 Academic Staff Member \
 Bioinformatics \
 Institute for Biochemistry and Biology \
