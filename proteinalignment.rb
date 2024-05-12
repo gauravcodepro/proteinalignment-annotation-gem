@@ -1,5 +1,5 @@
 #!/usr/bin/ruby
-# Author Gaurav Sablok
+# Author Gaurav 
 # Universitat Potsdam
 # Date 2024-4-4
    # a ruby gem for all the alignment and the pattern
@@ -12,11 +12,8 @@
 
 gem install gr-plot
 require 'gr/plot'
-
-
-class ProteinAlignment
-
-
+class PROTEINALIGNMENT
+   
  def initialize(alignmentfile, writemodifiedbuffer)
    @alignment = alignmentfile
    @modifiedbuffer = writemodifiedbuffer
